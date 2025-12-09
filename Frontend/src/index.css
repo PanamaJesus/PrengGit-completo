@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Botón rosado reutilizable */
+.btn-rosa {
+    @apply bg-[#F39F9F] text-white hover:bg-[#B95E82] py-2 px-4 rounded-lg transition font-semibold;
+  }
+  
